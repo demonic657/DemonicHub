@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+Window = Library.Main("DemonicHub","LeftAlt") -- change "LeftAlt" to key that you want will hide gui
+
+--//tab
+local Tab = Window.NewTab("MM2")
+
+
+--//section
+local Section = Tab.NewSection("KEYLESS")
+
+
+
+--// Button
+local Button = Section.NewButton("XHUB No Key",function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+-- code here
+end)
+
+--// Button
+local Button = Section.NewButton("Vertex",function()loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+-- code here
+end)
+
+--//section
+local Section = Tab.NewSection("KEYS")
+
+--// Button
+local Button = Section.NewButton("AtherHub",function()loadstring(game:HttpGet("https://rawscripts.net/raw/Murder-Mystery-2-AtherHub-18013"))()
+-- code here
+end)
